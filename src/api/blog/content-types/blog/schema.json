@@ -43,13 +43,6 @@
     "content": {
       "type": "richtext",
       "required": true
-    },
-    "media": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
     }
   }
 }
