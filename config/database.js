@@ -13,6 +13,7 @@
             rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false),
           },
         },
+        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
         debug: false,
       },
     });
