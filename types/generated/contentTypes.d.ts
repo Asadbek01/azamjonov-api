@@ -385,6 +385,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     slug: Attribute.String;
     summary: Attribute.Text;
     content: Attribute.RichText & Attribute.Required;
+    media: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
